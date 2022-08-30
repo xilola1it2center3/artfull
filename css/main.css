@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background: rgba(0, 0, 0, 0.5)  url("../img/art.png.jpg");
+    background: cover;
+    background-position: center center;
+    height: 100vh;
+    padding: 10px 0;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 400px;
+}
+.navbar-list{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navbar h2{
+    color: white;
+    font-size: 40px;
+}
+ 
